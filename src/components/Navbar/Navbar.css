@@ -1,0 +1,30 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background: white;
+  padding: .5rem;
+  z-index: 999;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  list-style: none;
+}
+
+nav li .nav-link {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.nav-right {
+  align-items: end;
+}
+
+.nav-button {
+  cursor: pointer;
+}

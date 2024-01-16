@@ -1,0 +1,32 @@
+.options-input {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.add-option,
+.remove-option {
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  background: #ff5555;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+.add-option {
+  background: #5555ff;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  border-radius: 50%;
+  user-select: none;
+}
+
+.remove-option {
+  background: #ff5555;
+  width: 2.5rem;
+  height: 3rem;
+  line-height: 3rem;
+  border-radius: 10px;
+  user-select: none;
+}

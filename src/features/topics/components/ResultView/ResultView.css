@@ -1,0 +1,14 @@
+.result-view span {
+  display: block;
+  font-size: 2em;
+  text-align: center;
+}
+
+.result-view {
+    padding: 10rem 0;
+}
+
+.result-view p {
+    text-align: center;
+    margin-top: 3rem;
+}

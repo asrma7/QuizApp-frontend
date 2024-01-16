@@ -1,0 +1,43 @@
+.modal-card {
+  height: 100%;
+  width: 100%;
+  background: white;
+  padding: 1rem 2rem;
+  margin: 2rem;
+  box-shadow: 2px 2px 2px 2px #fffa;
+  border-radius: 5px;
+}
+
+.form-flex {
+  display: flex;
+}
+
+.modal-form,
+.upload-form {
+  width: 50%;
+  background: #eee;
+  margin: 1rem;
+  padding: 2rem;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+
+.upload-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-control.flex {
+    flex-direction: row;
+}
+
+.form-control img {
+    max-height: 400px;
+    max-width: 400px;
+}

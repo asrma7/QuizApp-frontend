@@ -1,0 +1,86 @@
+.topics {
+  background: white;
+  min-height: 100%;
+  width: 100%;
+  margin: 2rem;
+  padding: 3rem;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-view {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5rem;
+}
+
+.topic-card {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 3px #0004;
+  padding: 1rem;
+  margin: 1rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.topic-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #0006;
+}
+
+.topic-title,
+.topic-description {
+  position: absolute;
+  color: white;
+  text-shadow: #fc0 1px 0 10px;
+  transition: opacity 500ms ease-in-out;
+}
+.topic-title {
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  user-select: none;
+}
+
+.topic-description {
+  top: 3rem;
+  left: 1rem;
+  right: 1rem;
+  font-size: 0.9em;
+  opacity: 0;
+  user-select: none;
+}
+
+.topic-info-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  border-radius: 50%;
+  color: #fff;
+  border: 1px solid #fff;
+  height: 1.9rem;
+  width: 1.9rem;
+  text-align: center;
+  user-select: none;
+}
+.topic-info-btn:hover ~ .topic-description {
+  opacity: 1;
+}
+
+.topic-info-btn:hover ~ .topic-title {
+  opacity: 0;
+}

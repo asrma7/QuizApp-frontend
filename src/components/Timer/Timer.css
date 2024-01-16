@@ -1,0 +1,8 @@
+.timer {
+  background: #fffa;
+  margin: 1rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 50px;
+  font-size: .9em;
+  user-select: none;
+}
