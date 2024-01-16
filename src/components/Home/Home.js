@@ -1,10 +1,13 @@
-import { Link } from "react-router-dom";
 import "./Home.css";
+import logo from "../../assets/images/logo.png";
+
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const content = (
     <section className="home">
-      <header>
+      <header className="home-header">
+        <img className="home-logo" src={logo} alt="QuizMaster Pro" />
         <h1>Welcome to QuizMaster Pro - Your Ultimate Exam Preparation Hub!</h1>
       </header>
       <main className="home-main">
@@ -23,7 +26,9 @@ const Home = () => {
             assessment, let QuizMaster Pro be your trusted companion on the road
             to success. Start your journey today!
           </p>
-          <Link to="topicslist" className="btn btn-primary">View Topics</Link>
+          <Link to="topicslist" className="btn btn-primary">
+            View Topics
+          </Link>
         </div>
         <div className="features-list">
           <h3>Key Features:</h3>
@@ -39,12 +44,6 @@ const Home = () => {
               Pro, there are no limits to how many times you can take a quiz.
               Hone your skills, master your subjects, and boost your confidence
               at your own pace.
-            </li>
-            <li>
-              <b>Comprehensive Question Bank:</b> Our extensive question bank
-              covers a wide range of topics and difficulty levels. From
-              multiple-choice to scenario-based questions, we've got you covered
-              across various subjects and disciplines.
             </li>
             <li>
               <b>Instant Feedback:</b> Receive immediate feedback on your

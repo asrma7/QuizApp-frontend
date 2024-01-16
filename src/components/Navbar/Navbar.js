@@ -1,5 +1,7 @@
 import "./Navbar.css";
 
+import logo from "../../assets/images/logo.png";
+
 import { useDispatch, useSelector } from "react-redux";
 import {
   selectCurrentUser,
@@ -54,6 +56,9 @@ const Navbar = () => {
   const content = (
     <nav>
       <ul className="nav-left">
+        <li className="nav-item">
+          <img className="nav-logo" src={logo} alt="Quizmaster Pro" />
+        </li>
         <li className="nav-item">
           <Link to="/" className="nav-link">
             Home

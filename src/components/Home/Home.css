@@ -3,8 +3,19 @@
   min-width: 700px;
 }
 
+.home-header {
+  display: flex;
+  align-items: center;
+}
+
 .home-main {
   display: flex;
+}
+
+.home-logo {
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 2rem;
 }
 
 .home-content {

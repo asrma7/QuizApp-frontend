@@ -1,6 +1,7 @@
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   box-sizing: border-box;
   background: white;
   padding: .5rem;
@@ -11,6 +12,7 @@ nav {
 .nav-right {
   display: flex;
   list-style: none;
+  align-items: center;
 }
 
 nav li .nav-link {
@@ -19,6 +21,12 @@ nav li .nav-link {
   text-decoration: none;
   padding: 10px;
   margin: 0 10px;
+}
+
+.nav-logo {
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 5px;
 }
 
 .nav-right {

@@ -7,7 +7,7 @@
 .main-content {
   width: 100%;
   margin-top: 10px;
-  padding-top: 90px;
+  padding-top: 40px;
   height: calc(100vh - 120px);
   overflow-x: hidden;
   overflow-y: scroll;
